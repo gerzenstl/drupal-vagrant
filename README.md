@@ -1,4 +1,4 @@
-# cleanlinux
+# Drupal Vagrant
 
 An Empty Linux Vagrant Machine to start a new project
 
@@ -6,20 +6,18 @@ An Empty Linux Vagrant Machine to start a new project
   
 - Debian Based machine
 - Shared folders via NFS
-- Default IP : 10.11.12.200
+- Default IP : 10.11.12.119
 - Default Shared : /var/www
+- Mysql, user root, password empty
+- Varnish by default
+- Memcahced by default
+- Drush 
+- Compass /usr/bin/local/compass
 
-## PHP Packages
+## Composer installation
 
-This command install all that I usually need for PHP
-   
-```
-apt-get update
-apt-get install phpmyadmin mysql-server memcached php5-memcached php5-xdebug php-apc php5-dev build-essential php-pear vim-nox
-```
-
-### Composer installation
-
+If you need composer use this
+ 
 ``` 
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
