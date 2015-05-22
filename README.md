@@ -13,6 +13,8 @@ An Empty Linux Vagrant Machine to start a new project
 - Memcahced by default
 - Drush 
 - Compass /usr/bin/local/compass
+- There is a clean dump in sql, you can import it in a database called drupal and use the current instalation
+  - User admin, pass 123123
 
 ## Composer installation
 
